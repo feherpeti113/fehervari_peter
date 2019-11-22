@@ -1,0 +1,139 @@
+# fehervari_peter
+body {
+  margin: 0 3vw;
+  font-family: "Roboto", sans-serif;
+}
+img.nagyok {
+  margin: 20px 0px; /*margó elötte utána, bal jobb*/
+  border: 5px solid green;
+  border-radius: 4px;
+  padding: 5px;
+}
+h1 {
+  background-color: rgb(192, 65, 65);
+  color: rgb(255, 255, 255);
+  margin: 0 0 2px 0;
+  padding: 10px;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.5) 5px 5px;
+}
+h2 {
+  text-decoration: underline;
+}
+p {
+  margin: 0 3vw;
+}
+
+#magamrol img {
+  width: 200px;
+  float: right;
+}
+#magamrol ul {
+  flex-direction: column;
+}
+#tanulmanyok img {
+  width: calc(90vw / 4);
+  height: calc(90vw / 6);
+  object-fit: cover;
+  margin: 5px;
+}
+#munkahely img {
+  width: calc(90vw / 4);
+  height: calc(90vw / 6);
+  object-fit: cover;
+  margin: 5px;
+}
+#hobbim img {
+  width: calc(90vw / 4);
+  height: calc(90vw / 6);
+  object-fit: cover;
+  margin: 5px;
+}
+#celok img {
+  width: calc(90vw / 4);
+  height: calc(90vw / 6);
+  object-fit: cover;
+  margin: 5px;
+}
+#munkahelyeim img {
+  width: calc(90vw / 4);
+  height: calc(90vw / 6);
+  object-fit: cover;
+  margin: 5px;
+}
+#elerteredmenyek img {
+  width: calc(90vw / 4);
+  height: calc(90vw / 6);
+  object-fit: cover;
+  margin: 5px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+nav ul div li a {
+  color: white;
+  padding: 14px 4px;
+  width: calc(83.8vw / 8);
+  height: 35px;
+  border: solid 0.1vw white;
+  border-radius: 8px;
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  object-fit: contain;
+  background-color: rgb(192, 65, 65);
+}
+ul div {
+  color: gray;
+  display: flex;
+  flex-direction: row;
+}
+a:hover {
+  background-color: gray;
+}
+#hobbykepek img {
+  width: calc(94vw / 6);
+  height: calc(90vw / 6);
+  margin: none;
+  display: block;
+  object-fit: cover;
+}
+#hobbykepek {
+  justify-content: center;
+  border: 5px solid green;
+  border-radius: 4px;
+  padding: 5px;
+}
+#hobby1 img {
+  margin: 0 5px;
+}
+#elerhetoseg {
+  text-decoration: underline;
+}
+footer h3 a {
+  color: black;
+  text-decoration: none;
+}
+#felfele {
+  position: fixed;
+  text-align: center;
+  height: 50px;
+  width: 50px;
+  right: 10px;
+  bottom: 10px;
+  background-color: rgb(255, 255, 255);
+  border: 5px solid red;
+  border-radius: 50%;
+  font-family: "Muli", sans-serif;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  box-shadow: 0px 8px 16px 0px rgb(0, 0, 0, 1);
+}
+#toop {
+  font-size: 10px;
+}
